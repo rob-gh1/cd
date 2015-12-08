@@ -117,7 +117,8 @@ public class Test_InterviewUtils {
 			{Boolean.TRUE, "Ah, Satan sees Natasha"},
 			{Boolean.FALSE, "definitely not a Palindrome"},
 			{Boolean.TRUE, "A nut for a jar of tuna"},
-			{Boolean.TRUE, "A lad named E. Mandala"}
+			{Boolean.TRUE, "A lad named E. Mandala"},
+			{Boolean.TRUE, "a a"},
 		};
 		
 		for (Object[] d : data) {

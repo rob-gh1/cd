@@ -133,7 +133,7 @@ public class InterviewUtils {
 		
 		// simply remove all non-alphanumeric characters. Must have something to work with.
 		final String tmp1 = value.replaceAll("[^a-zA-Z0-9]", "");
-		if (tmp1.length() <= 2) {
+		if (tmp1.length() < 2) {
 			return Boolean.FALSE;
 		}
 		
